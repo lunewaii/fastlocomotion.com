@@ -1,0 +1,197 @@
+//seo e smo
+<html>
+    <head>
+    <title>site</title>
+    <!--SEO: search engine optimization/ SMO: social media optimization-->
+    <meta name="description" content="descrição que aparecerá em SEO"/>
+    <meta property="og:title" content="site"/>
+    <meta property="og:site_name" content="site"/>
+    <meta property="og.description" content="descrição que aparecerá em SMO"/>
+    <meta property="og.url" content="intagram.com/rebecacpaula"/>
+    <meta property="og.imagem" content="https://i.pinimg.com/564x/5c/e8/fb/5ce8fb6b5c49fa4d43477e919813ec79.jpg"/>
+    <meta property="og:imagem:type" content="image/jpeg"/>
+    </head>
+</html>
+
+//quadrado no meio, que usa background pra fixar! vou usar no site!
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18;
+    font-style: normal;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: lighter
+}
+.titulo{
+    background-color: aqua;
+}
+.paragrafo{
+    background-color: rgba(137, 43, 226, 0.267);
+}
+.bg{
+    width: 100%;
+    height: 900px;
+    background-image: url('./imagens/vavaspur.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(137, 43, 226, 0.493);
+    /*background-size: cover; - para cobrir tudo*/
+}
+
+//animacao de contrair e esticar de novo
+(tem a classe teste sem nada no html)
+@keyframes animation {
+    0% {background-color: rgb(255, 0, 0); width: 400px;}
+    50% {background-color: blueviolet; width: 300px;}
+    100% {background-color: rgb(231, 28, 147); width: 400px;}
+}
+
+.teste {
+    height: 400px;
+    width: 400px;
+    background-color: blueviolet;
+    animation-name: animation;
+    animation-duration: 5s;
+}   
+
+//formulario de confirmacao
+.form {
+    text-align: center; /*alinha a imagem também*/
+    padding: 20px;
+}
+
+.form img {
+    /*é pra definir as coisas da imagem*/
+    max-width: 500px;
+    width: 300px;
+}
+
+.form input[type=text],
+.form input[type=email] {
+    display: block;
+    /*pra eles "cairem"*/
+    max-width: 400px;
+    margin: 10px auto;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #f34dca;
+    border-radius: 30px;
+    /*deixa redondinho!*/
+    color: #f34dca;
+    font-size: 12px;
+}
+
+.form input[type=submit] {
+    display: block;
+    /*pra eles "cairem"*/
+    max-width: 400px;
+    margin: 10px auto;
+    padding-left: 10px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #f34dca;
+    border-radius: 30px;
+    /*deixa redondinho!*/
+    color: #f34dca;
+    font-size: 12px;
+    cursor: pointer;
+    /*background: #ccc;
+    border-radius: 20px;
+    border: 1px solid #f34dca;
+    padding: 5px 10px;
+    ensinamento do gabs: um mexe no x e outro no y
+    display: block;
+    margin: 10px auto;*/
+}
+
+.form textarea {
+    border: 1px solid #f34dca;
+    resize: none;
+    border-radius: 30px;
+    max-width: 400px;
+    width: 100%;
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px auto;
+    padding: 10 10px 0 10px;
+    font-size: 12px;
+    color: aliceblue;
+    height: 80px;
+}
+
+//variavel de cor, mt util
+:root {
+    /*pra usar variavel yay*/
+    --cor: #000
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: var(--cor);
+}
+
+//footer
+footer{
+    position: fixed; /*pra nao mexer*/
+    width: 100%;
+    text-align: center;
+    bottom: 0; /*faz ele ficar lá embaixo*/
+    background: #ed45f385;
+}
+
+//object-fit: cover faz a imagem esticar pra caber na div toda
+
+//mudar coisa pelo js
+<div id="box"></div>
+    <script>
+        var box = document.getElementById('box');
+        box.style.width = '100px'; //no js precisa de px, % e etc, e de ''!
+        box.style.height = '100px';
+        box.style.backgroundColor = 'red';
+    </script>
+
+//quando tem mais de um e é pra mudar todos
+<div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <div class="box"></div>
+    <script>
+
+        var elementos = document.getElementsByClassName('box');
+
+        for(var i = 0; i < elementos.length; i++){
+            var el = elementos[i]
+    
+            el.style.height = '100px';
+            el.style.width = '100px';
+            el.style.backgroundColor = 'pink';
+            el.style.margin = '50px';
+            el.style.marginBottom = '50px';
+            el.style.borderWidth = '3px';
+            el.style.borderColor = 'black';
+            el.style.borderStyle = 'dotted'; //solid fica contínuo, dotted é pontilhadinho!!!
+            el.style.borderRadius = '10px';
+        }
+
+    </script>
+
+//muda diferentes coisas de dentro da array
+<div class="testes">
+        <div class="inside-testes">bello</div>
+    </div>
+    <div class="testes">
+        <div class="inside-testes">bello</div>
+    </div>
+
+    <script>
+        var els = document.querySelectorAll('.testes .inside-testes');
+        els[0].style.color = '#f34dca';
+        els[1].innerHTML = 'oi :)';
+        els[1].style.color = 'blue';
+    </script>
