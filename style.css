@@ -15,7 +15,7 @@
 }
 
 section.main {
-    background-image: url('images/bg-grey.jpg');
+    background-color: grey;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
@@ -37,7 +37,7 @@ section.main {
 }
 
 .logo-menu img {
-    width: 50px;
+    width: 100px;
     user-select: none;
 }
 
@@ -95,36 +95,27 @@ section.main {
     max-width: 50%;
 }
 
-section.brands {
-    padding: 10px 0;
-    /* background-color: red; */
-}
-
-section.brands img {
-    width: 15%;
-}
-
-section.porques {
+section.why {
     padding: 40px 0;
     background-color: #766B6E;
     /* height: 50vh; */
     width: 100%;
 }
 
-section.porques img {
+section.why img {
     max-width: 45px;
     max-height: 45px;
     width: auto;
     height: auto;
 }
 
-section.porques>.inner>h2 {
+section.why>.inner>h2 {
     font-size: 50px;
     text-align: center;
     margin-bottom: 2%;
 }
 
-section.porques>.inner>p {
+section.why>.inner>p {
     width: 100%;
     font-size: 20px;
     text-align: center;
@@ -257,9 +248,9 @@ section.benefits {
 
 section.depoiments {
     /* background-color: red; */
-    background-image: url('images/bg-grey.jpg');
+    background-color: grey;
     /* background-color: #696969; */
-    background-position: center;
+    /* background-position: center; */
     /* display: flexbox; */
 }
 
