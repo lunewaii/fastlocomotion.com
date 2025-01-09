@@ -4,10 +4,22 @@
     box-sizing: border-box;
     color: white;
 }
+
 html { scroll-behavior: smooth; }
+
 img{
     user-select: none;
 }
+
+.footer{
+    position: fixed; /*pra nao mexer*/
+    width: 100%;
+    text-align: center;
+    bottom: 0; /*faz ele ficar lá embaixo*/
+    background: white;
+    color: black;
+}
+
 .inner {
     display: flex;
     margin: o auto;
@@ -74,7 +86,7 @@ section.main {
     background-color: #10DD31;
     padding: 10px 10px;
     border-radius: 10px;
-    color: #766B6E;
+    color: black;
     box-shadow: 1px 1px 5px 1px #0000000f;
 }
 
@@ -186,7 +198,7 @@ section.start a {
     background-color: #10DD31;
     padding: 10px 10px;
     border-radius: 10px;
-    color: #766B6E;
+    color: black;
     text-decoration: none;
 }
 
@@ -214,7 +226,7 @@ section.benefits {
     background-color: #10DD31;
     padding: 18px;
     border-radius: 10px;
-    color: #766B6E;
+    color: black;
     text-decoration: none;
 }
 
@@ -463,15 +475,6 @@ section.contato form {
         width: 80%;
         margin-right: 0;
         height: 20%;
-    }
-
-    section.brands {
-        padding: 2%;
-        text-align: center;
-    }
-
-    section.brands img {
-        width: 30%;
     }
 
     .mockup img {
