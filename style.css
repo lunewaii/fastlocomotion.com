@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: black;
+    color: white;
 }
 html { scroll-behavior: smooth; }
 img{
@@ -18,7 +18,7 @@ img{
 }
 
 section.main {
-    background-color: white;
+    background-color: black;
     background-position: center;
     background-size: cover;
     min-height: 100vh;
