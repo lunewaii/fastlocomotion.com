@@ -20,6 +20,19 @@ img{
     color: black;
 }
 
+.whatsapp{
+    position: fixed;
+    right: 2%;
+    padding-top: 40%;
+    z-index: 2; 
+    /* isso deixa o zapzap no layer 2, em cima */
+}
+
+.whatsapp img{
+    max-width: 80px;
+    max-height: 80px;
+}
+
 .inner {
     display: flex;
     margin: o auto;
@@ -163,7 +176,7 @@ section.why>.inner>p {
 
 .box-diferenciais h3 {
     margin-left: 4%;
-    color: black;
+    color: #607B7D;
     font-size: 25px;
 }
 
@@ -190,13 +203,14 @@ section.start h2 {
 
 section.start h4 {
     margin: 2%;
+    padding: 5%;
     font-size: 20px;
     margin-bottom: 4%;
 }
 
 section.start a {
     background-color: #10DD31;
-    padding: 10px 10px;
+    padding: 15px 15px;
     border-radius: 10px;
     color: white;
     text-decoration: none;
