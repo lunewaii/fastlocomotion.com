@@ -281,11 +281,7 @@ section.benefits {
 }
 
 section.depoiments {
-    /* background-color: red; */
     background-color: grey;
-    /* background-color: #696969; */
-    /* background-position: center; */
-    /* display: flexbox; */
     height: 100vh;
 }
 
@@ -304,46 +300,6 @@ section.depoiments {
     /* height: 100vh; */
     flex-direction: column;
 }
-
-/* .box{
-    /* display: none;
-    position: relative; *
-    margin: 0 auto;
-    height: 40%;
-    width: 40%;
-    align-items: center;
-    text-align: center;
-    background-color: #000;
-} */
-
-/* .box img{
-    left: 0;
-    top: 0;
-    width: 30%;
-    height: 30%;
-    /* transition: 3s; - ver por que nao funciona *
-} */
-
-/* .bullets{
-    text-align: center;
-    margin-top: 10px;
-}
-
-.bullet-single{
-    margin: 0 8px;
-    cursor: pointer;
-    display: inline-block;
-    width: 20px;
-    height: 20px;
-    border-radius: 10px;
-    background-color: #f34cba;
-}
-
-.active-bullet{
-    background-color: #000;
-} */
-
-
 
 .tudo {
     display: flex;
@@ -441,42 +397,18 @@ section.contato h1 {
     margin-bottom: 5%;
 }
 
-section.contato form {
-    width: 100%;
+section.contato h2{
+    padding: 2%;
 }
 
-.contato input[type=text],
-.contato input[type=email] {
-    /* display: list-item; */
-    font-family: 'EB Garamond', serif;
-    font-size: 18px;
-    width: 100%;
-    max-width: 850px;
-    height: 30px;
+section.contato a{
+    background-color: #10DD31;
+    padding: 1%;
     border-radius: 10px;
-    margin: 10px 0;
-    background: white;
-    padding-left: 10px;
+    color: white;
+    text-decoration: none;
 }
 
-.contato textarea {
-    font-family: 'EB Garamond', serif;
-    font-size: 18px;
-    width: 100%;
-    max-width: 850px;
-    height: 120px;
-    border-radius: 10px;
-    margin: 10px 0;
-    background: white;
-    padding-left: 10px;
-}
-
-.contato input[type=submit] {
-    background-color: #72D6CA;
-    padding: 0.8%;
-    border-radius: 10px;
-    color: #766B6E;
-}
 
 @media screen and (max-width: 800px) {
     .diferenciais {
