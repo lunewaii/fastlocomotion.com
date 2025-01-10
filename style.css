@@ -86,7 +86,7 @@ section.main {
     background-color: #10DD31;
     padding: 10px 10px;
     border-radius: 10px;
-    color: black;
+    color: white;
     box-shadow: 1px 1px 5px 1px #0000000f;
 }
 
@@ -170,7 +170,7 @@ section.why>.inner>p {
 .box-diferenciais p {
     margin-top: 5%;
     color: black;
-    font-size: 18px;
+    font-size: 20px;
 }
 
 section.start {
@@ -198,7 +198,7 @@ section.start a {
     background-color: #10DD31;
     padding: 10px 10px;
     border-radius: 10px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
@@ -226,7 +226,7 @@ section.benefits {
     background-color: #10DD31;
     padding: 18px;
     border-radius: 10px;
-    color: black;
+    color: white;
     text-decoration: none;
 }
 
