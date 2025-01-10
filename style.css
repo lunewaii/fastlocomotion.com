@@ -132,7 +132,7 @@ section.main {
 
 section.why {
     padding: 40px 0;
-    background-color: #031D44;
+    background-color: black;
     min-height: 70vh;
     width: 100%;
 }
@@ -244,7 +244,7 @@ section.benefits {
     display: flex;
     width: 100%;
     padding: 40px 0;
-    background-color: #031D44;
+    background-color: black;
     align-items: center;
     min-height: 100vh;
 }
@@ -393,7 +393,7 @@ section.contato a{
     }
 
     .items-menu a.contact-btn {
-        margin-top: 5%;
+        /* margin-top: %; */
         box-shadow: -2px -2px 9px 6px #0000001f;
     }
 
@@ -411,5 +411,42 @@ section.contato a{
         width: 100%;
         /* background-color: blue; */
         text-align: center;
+    }
+
+    a.fade{
+        display: none;
+    }
+
+    .mockup p{
+        padding: 2%;
+    }
+
+    .box-diferenciais{
+        padding: 5%;
+    }
+
+    .box-diferenciais p{
+        font-size: 17px;
+    }
+
+    .box-diferenciais h3{
+        font-size: 21px;
+    }
+
+    section.start h2{
+        font-size: 40px;
+    }
+
+    section.start h4{
+        padding: 8%;
+    }
+
+    section.benefits p{
+        font-size: 15px;
+    }
+
+    section.benefits h1{
+        font-size: 33px;
+        line-height: 30px;
     }
 }
