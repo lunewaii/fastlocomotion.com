@@ -130,7 +130,7 @@ section.main {
 section.why {
     padding: 40px 0;
     background-color: #031D44;
-    height: 70vh;
+    min-height: 70vh;
     width: 100%;
 }
 
@@ -163,7 +163,7 @@ section.why>.inner>p {
     border-radius: 10px;
     background-color: #10DD31;
     box-shadow: 0px 20px 40px #2426721C;
-    height: 30%;
+    min-height: 30%;
     width: 33%;
     margin: 2%;
     padding: 2%;
@@ -192,7 +192,7 @@ section.start {
     background-color: black;
     background-position: center;
     padding: 8%;
-    height: 70vh;
+    min-height: 70vh;
     width: 100%;
     text-align: center;
 }
@@ -223,7 +223,7 @@ section.benefits {
     padding: 40px 0;
     background-color: #031D44;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .left {
@@ -260,6 +260,7 @@ section.benefits {
 .imgtxt2 p {
     font-size: 20px;
     padding: 1%;
+    margin-left: 2%;
 }
 
 .imgtxt2 img {
@@ -284,7 +285,7 @@ section.benefits {
 
 section.depoiments {
     background-color: black;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .th1 h1 {
@@ -324,7 +325,7 @@ section.contato {
     align-items: center;
     text-align: center;
     width: 100%;
-    height: 100vh;
+    min-height: 100vh;
     padding: 10%;
     background-color: #766B6E;
 }
