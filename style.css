@@ -45,6 +45,7 @@ img{
 
 section.main {
     background-color: black;
+    background: radial-gradient(circle, rgb(206 206 206) 0%, rgb(129 129 129) 100%);
     background-position: center;
     background-size: cover;
     min-height: 100vh;
@@ -117,10 +118,12 @@ section.main {
 
 .mockup h1 {
     font-size: 40px;
+    text-shadow: 1px 1px 3px #0000006b;
 }
 
 .mockup p {
     font-size: 20px;
+    text-shadow: 1px 1px 3px #0000006b;
 }
 
 .mockup img {
@@ -161,7 +164,7 @@ section.why>.inner>p {
 
 .box-diferenciais {
     border-radius: 10px;
-    background-color: #10DD31;
+    background-color: #f8f8f8;
     box-shadow: 0px 20px 40px #2426721C;
     min-height: 30%;
     width: 33%;
@@ -173,23 +176,38 @@ section.why>.inner>p {
     display: flex;
     align-items: center;
     margin-left: 2%;
+    position: relative;
+}
+
+.imgetxt::after {
+    position: absolute;
+    content: ' ';
+    display: block;
+    width: 90%;
+    height: 1px;
+    background: #b6b6b642;
+    bottom: -9px;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
 }
 
 .box-diferenciais h3 {
     margin-left: 4%;
-    color: #607B7D;
+    color: #000000;
     font-size: 25px;
+    line-height: 25px;
 }
 
 .box-diferenciais p {
     margin-top: 5%;
-    color: black;
+    color: #0d0d0d;
     font-size: 20px;
 }
 
 section.start {
-    /* background-image: url('images/bg-grey.jpg'); */
-    background-color: black;
+    background-color: rgb(238, 237, 237);
+    background: radial-gradient(circle, rgb(206 206 206) 0%, rgb(192, 191, 191) 100%);
     background-position: center;
     padding: 8%;
     min-height: 70vh;
@@ -200,6 +218,8 @@ section.start {
 section.start h2 {
     margin: 2%;
     font-size: 50px;
+    color: white;
+    text-shadow: 1px 1px 6px #0000006b;
 }
 
 section.start h4 {
@@ -207,6 +227,8 @@ section.start h4 {
     padding: 5%;
     font-size: 20px;
     margin-bottom: 4%;
+    color: black;
+    text-shadow: 1px 1px 3px #0000006b;
 }
 
 section.start a {
@@ -215,6 +237,7 @@ section.start a {
     border-radius: 10px;
     color: white;
     text-decoration: none;
+    box-shadow: -2px -2px 9px 6px #0000001f;
 }
 
 section.benefits {
@@ -235,6 +258,7 @@ section.benefits {
     font-size: 50px;
     margin-bottom: 5%;
     margin-left: 20%;
+    line-height: 50px;
 }
 
 .left a {
@@ -243,6 +267,7 @@ section.benefits {
     border-radius: 10px;
     color: white;
     text-decoration: none;
+    box-shadow: -2px -2px 9px 6px #0000001f;
 }
 
 .btn {
@@ -280,7 +305,9 @@ section.benefits {
     max-height: 80%;
     width: auto;
     height: auto;
-    border-radius: 30%;
+    border-radius: 12%;
+    border: 1px #2b528c94 solid;
+    box-shadow: -2px -2px 9px 6px #0000001f;
 }
 
 section.depoiments {
@@ -367,6 +394,7 @@ section.contato a{
 
     .items-menu a.contact-btn {
         margin-top: 5%;
+        box-shadow: -2px -2px 9px 6px #0000001f;
     }
 
     section.benefits {
