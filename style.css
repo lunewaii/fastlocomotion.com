@@ -13,12 +13,13 @@ img{
 }
 
 .footer{
-    position: fixed; /*pra nao mexer*/
+    font-size: 15px;
     width: 100%;
     text-align: center;
     bottom: 0; /*faz ele ficar lá embaixo*/
     background: white;
     color: black;
+    padding: 1%;
 }
 
 .whatsapp{
@@ -448,5 +449,9 @@ section.contato a{
     section.benefits h1{
         font-size: 33px;
         line-height: 30px;
+    }
+
+    section.why p{
+        padding: 2%;
     }
 }
