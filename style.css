@@ -281,7 +281,7 @@ section.benefits {
 }
 
 section.depoiments {
-    background-color: grey;
+    background-color: black;
     height: 100vh;
 }
 
@@ -300,7 +300,7 @@ section.depoiments {
 
 .wrapper .img {
     width: 33%;
-    outline: 2px solid #f34dca;
+    outline: 2px solid #10DD31;
     border-radius: 10px;
     max-width: 250px;
     max-height: 250px;
